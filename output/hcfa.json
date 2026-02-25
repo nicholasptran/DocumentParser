@@ -1,0 +1,74 @@
+{
+  "payer_program": {
+    "selected": "MEDICARE",
+    "other_coverage_text": "NO OTHER COVERAGE"
+  },
+  "patient": {
+    "name": { "last": "SMITH", "first": "JOHN", "middle": "C" },
+    "dob": "2000-02-14",
+    "sex": "M",
+    "address": {
+      "street": "555 RIDGE RD",
+      "city": "SAN DIEGO",
+      "state": "CA",
+      "zip": "90210",
+      "phone": "(555) 555-5555"
+    },
+    "relationship_to_insured": "Self",
+    "marital_status": "Single"
+  },
+  "insured": {
+    "name": { "last": "SMITH", "first": "JOHN" },
+    "address": {
+      "street": "555 RIDGE ST",
+      "city": "SAN DIEGO",
+      "state": "CA",
+      "zip": "90210",
+      "phone": "(555) 555-5555"
+    },
+    "policy_group_or_feca_number": null,
+    "insurance_plan_name_or_program": "MEDICARE",
+    "another_health_benefit_plan": "No"
+  },
+  "other_insured": {
+    "name": null,
+    "policy_or_group_number": null
+  },
+  "conditions_related_to": {
+    "employment": null,
+    "auto_accident": "No",
+    "other_accident": "No"
+  },
+  "signatures": {
+    "patient_signature": "SIGNATURE ON FILE",
+    "insured_signature": "SIGNATURE ON FILE",
+    "signed_date": "2006-12-03"
+  },
+  "referring_provider": {
+    "name": "HENRY SLATER, MD",
+    "id_number": "F24555"
+  },
+  "service_lines": [
+    {
+      "line": 1,
+      "date_from_raw": "11/01/06",
+      "date_to_raw": "12/24/07",
+      "place_of_service_raw": "09100",
+      "procedure_code_raw": "1500",
+      "charges_raw": "1500.00",
+      "units_raw": "18",
+      "raw_block": "[1101 06(24/07) o9100| 1500 ool 18)"
+    }
+  ],
+  "anesthesia": {
+    "minutes_raw": "??",
+    "start_time_raw": "7:00",
+    "stop_time_raw": "1b:op"
+  },
+  "billing_provider": {
+    "npi_or_id_raw": "123456789",
+    "office_or_name_raw": "OFFICE OF DLLISON PAYLOR",
+    "address_raw": "PLAYPO BOXCOMPANY555555 RWS SAN DIEGO CA 90210",
+    "provider_signature_raw": "SIGNED 120306"
+  }
+}
