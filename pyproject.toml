@@ -8,6 +8,7 @@ dependencies = [
     "ipykernel>=7.2.0",
     "opencv-python>=4.13.0.92",
     "pip>=26.0.1",
+    "pymupdf>=1.27.1",
     "pymupdf4llm[layout]>=0.3.3",
     "pytest>=9.0.2",
     "pytest-cov>=7.0.0",
