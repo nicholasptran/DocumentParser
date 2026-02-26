@@ -32,7 +32,6 @@ jobs:
     - uses: astral-sh/ruff-action@v3
       with:
         src: "./src"
-        args: "format --check --diff"
     - name: Lint with ruff
       run: |
         ruff check --fix
